@@ -1,0 +1,13 @@
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\bin\Debug\ReCoMaS.exe
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\bin\Debug\ReCoMaS.pdb
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Form_Tipos_Estabelecimento.resources
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Form_Principal.resources
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Properties.Resources.resources
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.exe
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.pdb
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Forms.Form_Cad_Cerberus.resources
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Form_Cad_Membros.resources
+C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Forms.Form_Pesq_Membros.resources
