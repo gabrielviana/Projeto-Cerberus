@@ -11,3 +11,5 @@ C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCo
 C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Forms.Form_Cad_Cerberus.resources
 C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Form_Cad_Membros.resources
 C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Forms.Form_Pesq_Membros.resources
+C:\Users\rogerio\.ssh\source\Projeto-Cerberus\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.exe
+C:\Users\rogerio\.ssh\source\Projeto-Cerberus\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.pdb
