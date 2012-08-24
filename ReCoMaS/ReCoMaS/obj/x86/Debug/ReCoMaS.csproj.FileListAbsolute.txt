@@ -11,6 +11,7 @@ C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCo
 C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Forms.Form_Cad_Cerberus.resources
 C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Form_Cad_Membros.resources
 C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Códigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Forms.Form_Pesq_Membros.resources
+<<<<<<< HEAD
 C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Codigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.exe
 C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Codigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.pdb
 C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Codigos\ReCoMaS\ReCoMaS\bin\Debug\ReCoMaS.exe
@@ -26,3 +27,7 @@ C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Codigos\ReCoMaS\ReCoM
 C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Codigos\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.Properties.Resources.resources
 C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Codigos\ReCoMaS\ReCoMaS\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Administrador\Documents\Projetos Pessoais\ReCoMaS\Codigos\ReCoMaS\ReCoMaS\obj\x86\Debug\GenerateResource.write.1.tlog
+=======
+C:\Users\rogerio\.ssh\source\Projeto-Cerberus\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.exe
+C:\Users\rogerio\.ssh\source\Projeto-Cerberus\ReCoMaS\ReCoMaS\obj\x86\Debug\ReCoMaS.pdb
+>>>>>>> c6f1f3f3eb42211e21525d75adb7c15b0c2cfe34
