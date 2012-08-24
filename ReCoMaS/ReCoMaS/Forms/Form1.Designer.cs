@@ -77,28 +77,27 @@
             this.cadastroDeTiposDeCrimesToolStripMenuItem,
             this.cadastroDeCrimesOcorridosToolStripMenuItem});
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
-            this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
-            this.cadastrosToolStripMenuItem.Click += new System.EventHandler(this.cadastrosToolStripMenuItem_Click);
             // 
             // cadastroDeTiposDeEstabelecimentosToolStripMenuItem
             // 
             this.cadastroDeTiposDeEstabelecimentosToolStripMenuItem.Name = "cadastroDeTiposDeEstabelecimentosToolStripMenuItem";
-            this.cadastroDeTiposDeEstabelecimentosToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.cadastroDeTiposDeEstabelecimentosToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.cadastroDeTiposDeEstabelecimentosToolStripMenuItem.Text = "Cadastro de tipos de estabelecimentos";
             this.cadastroDeTiposDeEstabelecimentosToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeTiposDeEstabelecimentosToolStripMenuItem_Click);
             // 
             // cadastroDeMembrosDaRedeToolStripMenuItem
             // 
             this.cadastroDeMembrosDaRedeToolStripMenuItem.Name = "cadastroDeMembrosDaRedeToolStripMenuItem";
-            this.cadastroDeMembrosDaRedeToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.cadastroDeMembrosDaRedeToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.cadastroDeMembrosDaRedeToolStripMenuItem.Text = "Cadastro de membros da rede";
             this.cadastroDeMembrosDaRedeToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeMembrosDaRedeToolStripMenuItem_Click);
             // 
             // cadastroDoSistemaCerberusToolStripMenuItem
             // 
             this.cadastroDoSistemaCerberusToolStripMenuItem.Name = "cadastroDoSistemaCerberusToolStripMenuItem";
-            this.cadastroDoSistemaCerberusToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.cadastroDoSistemaCerberusToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.cadastroDoSistemaCerberusToolStripMenuItem.Text = "Cadastro do sistema Cerberus";
             this.cadastroDoSistemaCerberusToolStripMenuItem.Click += new System.EventHandler(this.cadastroDoSistemaCerberusToolStripMenuItem_Click);
             // 
@@ -111,32 +110,32 @@
             this.criminososCadastradosToolStripMenuItem,
             this.tiposDeCrimesCadastradosToolStripMenuItem});
             this.pesquisarToolStripMenuItem.Name = "pesquisarToolStripMenuItem";
-            this.pesquisarToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.pesquisarToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.pesquisarToolStripMenuItem.Text = "Pesquisar";
             // 
             // tiposDeEstabelecimentosToolStripMenuItem
             // 
             this.tiposDeEstabelecimentosToolStripMenuItem.Name = "tiposDeEstabelecimentosToolStripMenuItem";
-            this.tiposDeEstabelecimentosToolStripMenuItem.Size = new System.Drawing.Size(326, 22);
+            this.tiposDeEstabelecimentosToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
             this.tiposDeEstabelecimentosToolStripMenuItem.Text = "Tipos de estabelecimentos";
             // 
             // membrosDaRedeToolStripMenuItem
             // 
             this.membrosDaRedeToolStripMenuItem.Name = "membrosDaRedeToolStripMenuItem";
-            this.membrosDaRedeToolStripMenuItem.Size = new System.Drawing.Size(326, 22);
+            this.membrosDaRedeToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
             this.membrosDaRedeToolStripMenuItem.Text = "Membros da rede";
             this.membrosDaRedeToolStripMenuItem.Click += new System.EventHandler(this.membrosDaRedeToolStripMenuItem_Click);
             // 
             // equipamentosCadastradosNoSistemaCerberusToolStripMenuItem
             // 
             this.equipamentosCadastradosNoSistemaCerberusToolStripMenuItem.Name = "equipamentosCadastradosNoSistemaCerberusToolStripMenuItem";
-            this.equipamentosCadastradosNoSistemaCerberusToolStripMenuItem.Size = new System.Drawing.Size(326, 22);
+            this.equipamentosCadastradosNoSistemaCerberusToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
             this.equipamentosCadastradosNoSistemaCerberusToolStripMenuItem.Text = "Equipamentos cadastrados no sistema Cerberus";
             // 
             // relatóriosToolStripMenuItem
             // 
             this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
-            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.relatóriosToolStripMenuItem.Text = "Relatórios";
             // 
             // cadastroDeCriminososToolStripMenuItem
