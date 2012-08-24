@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using ReCoMaS.Forms;
+using ReCoMaS.Forms.Cadastros;
 
 namespace ReCoMaS
 {
@@ -44,6 +45,23 @@ namespace ReCoMaS
         {
             Form_Pesq_Membros callFM = new Form_Pesq_Membros();
             callFM.Show();
+        }
+
+        private void cadastroDeCrimesOcorridosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_Cad_Crimes callCC = new Form_Cad_Crimes();
+            callCC.Show();
+        }
+
+        private void cadastroDeCriminososToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_Cad_Criminoso callCCr = new Form_Cad_Criminoso();
+            callCCr.Show();
+        }
+
+        private void sobreOSistemaProtectorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

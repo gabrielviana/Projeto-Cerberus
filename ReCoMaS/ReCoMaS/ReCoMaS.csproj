@@ -52,11 +52,23 @@
     <Compile Include="Forms\Cadastros\Form_Cad_Cerberus.Designer.cs">
       <DependentUpon>Form_Cad_Cerberus.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Cadastros\Form_Cad_Criminoso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cadastros\Form_Cad_Criminoso.Designer.cs">
+      <DependentUpon>Form_Cad_Criminoso.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Cadastros\Form_Cad_Membros.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Cadastros\Form_Cad_Membros.Designer.cs">
       <DependentUpon>Form_Cad_Membros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cadastros\Form_Cad_Crimes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cadastros\Form_Cad_Crimes.Designer.cs">
+      <DependentUpon>Form_Cad_Crimes.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Pesquisas\Form_Pesq_Membros.cs">
       <SubType>Form</SubType>
@@ -80,6 +92,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\Cadastros\Form_Cad_Cerberus.resx">
       <DependentUpon>Form_Cad_Cerberus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cadastros\Form_Cad_Crimes.resx">
+      <DependentUpon>Form_Cad_Crimes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cadastros\Form_Cad_Criminoso.resx">
+      <DependentUpon>Form_Cad_Criminoso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Cadastros\Form_Cad_Membros.resx">
       <DependentUpon>Form_Cad_Membros.cs</DependentUpon>

@@ -38,6 +38,16 @@
             this.membrosDaRedeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.equipamentosCadastradosNoSistemaCerberusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastroDeCriminososToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastroDeTiposDeCrimesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.criminososCadastradosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tiposDeCrimesCadastradosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastroDeCrimesOcorridosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.configuraçõesDoSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreOSistemaProtectorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.criarUsuárioDeAcessoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pesquisarUsuáriosDoProtectorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,10 +56,13 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastrosToolStripMenuItem,
             this.pesquisarToolStripMenuItem,
-            this.relatóriosToolStripMenuItem});
+            this.relatóriosToolStripMenuItem,
+            this.configuraçõesDoSistemaToolStripMenuItem,
+            this.sobreOSistemaProtectorToolStripMenuItem,
+            this.ajudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(292, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(642, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -59,7 +72,10 @@
             this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastroDeTiposDeEstabelecimentosToolStripMenuItem,
             this.cadastroDeMembrosDaRedeToolStripMenuItem,
-            this.cadastroDoSistemaCerberusToolStripMenuItem});
+            this.cadastroDoSistemaCerberusToolStripMenuItem,
+            this.cadastroDeCriminososToolStripMenuItem,
+            this.cadastroDeTiposDeCrimesToolStripMenuItem,
+            this.cadastroDeCrimesOcorridosToolStripMenuItem});
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
@@ -90,7 +106,9 @@
             this.pesquisarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tiposDeEstabelecimentosToolStripMenuItem,
             this.membrosDaRedeToolStripMenuItem,
-            this.equipamentosCadastradosNoSistemaCerberusToolStripMenuItem});
+            this.equipamentosCadastradosNoSistemaCerberusToolStripMenuItem,
+            this.criminososCadastradosToolStripMenuItem,
+            this.tiposDeCrimesCadastradosToolStripMenuItem});
             this.pesquisarToolStripMenuItem.Name = "pesquisarToolStripMenuItem";
             this.pesquisarToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.pesquisarToolStripMenuItem.Text = "Pesquisar";
@@ -120,11 +138,77 @@
             this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.relatóriosToolStripMenuItem.Text = "Relatórios";
             // 
+            // cadastroDeCriminososToolStripMenuItem
+            // 
+            this.cadastroDeCriminososToolStripMenuItem.Name = "cadastroDeCriminososToolStripMenuItem";
+            this.cadastroDeCriminososToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
+            this.cadastroDeCriminososToolStripMenuItem.Text = "Cadastro de criminosos";
+            this.cadastroDeCriminososToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeCriminososToolStripMenuItem_Click);
+            // 
+            // cadastroDeTiposDeCrimesToolStripMenuItem
+            // 
+            this.cadastroDeTiposDeCrimesToolStripMenuItem.Name = "cadastroDeTiposDeCrimesToolStripMenuItem";
+            this.cadastroDeTiposDeCrimesToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
+            this.cadastroDeTiposDeCrimesToolStripMenuItem.Text = "Cadastro de tipos de crimes";
+            // 
+            // criminososCadastradosToolStripMenuItem
+            // 
+            this.criminososCadastradosToolStripMenuItem.Name = "criminososCadastradosToolStripMenuItem";
+            this.criminososCadastradosToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
+            this.criminososCadastradosToolStripMenuItem.Text = "Criminosos cadastrados";
+            // 
+            // tiposDeCrimesCadastradosToolStripMenuItem
+            // 
+            this.tiposDeCrimesCadastradosToolStripMenuItem.Name = "tiposDeCrimesCadastradosToolStripMenuItem";
+            this.tiposDeCrimesCadastradosToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
+            this.tiposDeCrimesCadastradosToolStripMenuItem.Text = "Tipos de crimes cadastrados";
+            // 
+            // cadastroDeCrimesOcorridosToolStripMenuItem
+            // 
+            this.cadastroDeCrimesOcorridosToolStripMenuItem.Name = "cadastroDeCrimesOcorridosToolStripMenuItem";
+            this.cadastroDeCrimesOcorridosToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
+            this.cadastroDeCrimesOcorridosToolStripMenuItem.Text = "Cadastro de crimes ocorridos";
+            this.cadastroDeCrimesOcorridosToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeCrimesOcorridosToolStripMenuItem_Click);
+            // 
+            // configuraçõesDoSistemaToolStripMenuItem
+            // 
+            this.configuraçõesDoSistemaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.criarUsuárioDeAcessoToolStripMenuItem,
+            this.pesquisarUsuáriosDoProtectorToolStripMenuItem});
+            this.configuraçõesDoSistemaToolStripMenuItem.Name = "configuraçõesDoSistemaToolStripMenuItem";
+            this.configuraçõesDoSistemaToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
+            this.configuraçõesDoSistemaToolStripMenuItem.Text = "Configurações";
+            // 
+            // sobreOSistemaProtectorToolStripMenuItem
+            // 
+            this.sobreOSistemaProtectorToolStripMenuItem.Name = "sobreOSistemaProtectorToolStripMenuItem";
+            this.sobreOSistemaProtectorToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
+            this.sobreOSistemaProtectorToolStripMenuItem.Text = "Sobre o Protector";
+            this.sobreOSistemaProtectorToolStripMenuItem.Click += new System.EventHandler(this.sobreOSistemaProtectorToolStripMenuItem_Click);
+            // 
+            // ajudaToolStripMenuItem
+            // 
+            this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
+            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.ajudaToolStripMenuItem.Text = "Ajuda";
+            // 
+            // criarUsuárioDeAcessoToolStripMenuItem
+            // 
+            this.criarUsuárioDeAcessoToolStripMenuItem.Name = "criarUsuárioDeAcessoToolStripMenuItem";
+            this.criarUsuárioDeAcessoToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
+            this.criarUsuárioDeAcessoToolStripMenuItem.Text = "Criar usuário de acesso";
+            // 
+            // pesquisarUsuáriosDoProtectorToolStripMenuItem
+            // 
+            this.pesquisarUsuáriosDoProtectorToolStripMenuItem.Name = "pesquisarUsuáriosDoProtectorToolStripMenuItem";
+            this.pesquisarUsuáriosDoProtectorToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
+            this.pesquisarUsuáriosDoProtectorToolStripMenuItem.Text = "Pesquisar usuários do Protector";
+            // 
             // Form_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 273);
+            this.ClientSize = new System.Drawing.Size(642, 273);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form_Principal";
@@ -150,6 +234,16 @@
         private System.Windows.Forms.ToolStripMenuItem membrosDaRedeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem equipamentosCadastradosNoSistemaCerberusToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem relatóriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastroDeCriminososToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastroDeTiposDeCrimesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem criminososCadastradosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tiposDeCrimesCadastradosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastroDeCrimesOcorridosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem configuraçõesDoSistemaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sobreOSistemaProtectorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem criarUsuárioDeAcessoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pesquisarUsuáriosDoProtectorToolStripMenuItem;
     }
 }
 
